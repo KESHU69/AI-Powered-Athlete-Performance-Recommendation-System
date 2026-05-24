@@ -1,0 +1,70 @@
+body{
+    font-family:'Raleway',sans-serif;
+    background:transparent;
+    margin:0;
+}
+
+/* Title */
+h1{
+    text-align:center;
+    color:#5b3c8a;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+/* Section titles */
+h2{
+    text-align:center;
+    color:#6e57b8;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+/* Container background */
+.container{
+    background:#f4f2ff;
+    padding:40px;
+    border-radius:20px;
+}
+
+/* Table styling */
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    margin-bottom:40px;
+}
+
+/* Header row */
+th{
+    background:#5b3c8a;
+    color:white;
+    padding:14px;
+    font-weight:600;
+    font-size:16px;
+}
+
+/* Table cells */
+td{
+    padding:14px;
+    text-align:center;
+    font-size:15px;
+}
+
+/* Alternate rows */
+tr:nth-child(even){
+    background:#f0ecff;
+}
+
+tr:nth-child(odd){
+    background:white;
+}
+
+/* Hover effect */
+tr:hover{
+    background:#e6e0ff;
+    transition:0.2s;
+}
